@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "./App.css";
 
 function App() {
   const [displayText, setDisplayText] = useState("");
@@ -77,11 +76,13 @@ function App() {
         id="drum-machine"
         className="container p-5 my-5 bg-dark text-white shadow-lg"
       >
-        <h2 id="title">Drum Machine</h2>
+        <h2 id="title" className="text-center">
+          Drum Machine
+        </h2>
         <div id="display-container">
           <div
             id="display"
-            className="container p-1 my-4 text-bg-light rounded-2"
+            className="container p-1 my-4 text-bg-light rounded-2 text-center"
           >
             {displayText}
           </div>
