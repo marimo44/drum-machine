@@ -92,7 +92,7 @@ function App() {
             {drumSounds.map((item) => (
               <div key={item.key} className="col-4">
                 <button
-                  key={item.key}
+                  // key={item.key}
                   id={`drum-${item.key}`}
                   className="drum-pad btn btn-outline-secondary w-100 rounded-pill"
                   onClick={(e) => {
